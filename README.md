@@ -11,8 +11,14 @@
 
 1. 前往 Release 并找到你需要的系统版本
 2. 下载除 Source Code(xxx) 外的所有文件（应为数个 rom.z0x 和 Merge.sh）
-3. 重启手机进入TWRP卡刷    请使用酷安[@桜酱没有未来](https://www.coolapk.com/u/2643293)（[GitHub](https://github.com/SakuraKyuo)）制作的TWRP
-4. 重启即可
+3. 使用[MT管理器](https://mt2.cn/download/)，进入到下载目录，并确保 rom.z0x 和 Merge.sh 位于同一目录
+4. 运行 Merge.sh，输出的 newrom.zip 即为合并完的卡刷包
+5. 重启手机进入TWRP卡刷————Ace3Pro请使用酷安[@桜酱没有未来](https://www.coolapk.com/u/2643293)（[GitHub](https://github.com/SakuraKyuo)）制作的TWRP
+6. 重启即可
+
+### 报错相关
+- 如果您遇到了如“ErrorCode::kPostinstallRunnerError (5) ”的错误，无需担心，只需要手动切换槽位然后正常重启即可（如图）![2643293_d2dc0703_2036_6724_121@873x435 jpeg m](https://github.com/user-attachments/assets/b37d1311-2d7b-44ea-9465-6787bd3c756f)
+
 
 ## 其他
 
