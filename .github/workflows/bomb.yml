@@ -56,6 +56,7 @@ jobs:
         ls IMAGES/*.img > META/ab_partitions.txt
         sed -i 's/IMAGES\///g' META/ab_partitions.txt
         sed -i 's/.img//g' META/ab_partitions.txt
+        ./generatePartitions.sh
         ./repackZip.sh
         split -b 1900M --numeric-suffixes --suffix-length=2 output/OTA.zip rom.z
         echo "cat $(ls rom.z* | tr '\n' ' ') > newrom.zip" > Merge.sh
